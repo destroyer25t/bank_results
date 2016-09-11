@@ -1,0 +1,1 @@
+SELECT id, client_id, closed FROM account WHERE (client_id='b' AND (closed=0 OR closed>current_date()));
